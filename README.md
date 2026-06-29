@@ -1,3 +1,4 @@
+
 # node-red-contrib-edgelink-pg
 
 [![npm version](https://img.shields.io/npm/v/node-red-contrib-edgelink-pg.svg)](https://www.npmjs.com/package/node-red-contrib-edgelink-pg)
@@ -319,6 +320,3 @@ Edge scenarios: PG either recovers quickly (network hiccup) or stays dead (needs
 ## License
 
 MIT — see [LICENSE](LICENSE) for full text.
-#   n o d e - r e d - c o n t r i b - e d g e l i n k - p g  
- #   n o d e - r e d - c o n t r i b - e d g e l i n k - p g  
- 
