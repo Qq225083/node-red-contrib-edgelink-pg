@@ -1,0 +1,50 @@
+{
+  "name": "node-red-contrib-edgelink-pg",
+  "version": "1.0.1",
+  "description": "EdgeLink PostgreSQL/TimescaleDB 批量写入节点 — 三菱PLC/Modbus 采集数据直写入库，支持断线缓存重试",
+  "author": {
+    "name": "chunhailiu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Qq225083/node-red-contrib-edgelink-pg#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qq225083/node-red-contrib-edgelink-pg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qq225083/node-red-contrib-edgelink-pg/issues"
+  },
+  "keywords": [
+    "node-red",
+    "postgresql",
+    "timescaledb",
+    "plc",
+    "scada",
+    "industrial",
+    "iot",
+    "edge-computing",
+    "mitsubishi",
+    "modbus",
+    "batch-insert",
+    "data-logger"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "node-red": {
+    "version": ">=3.0.0",
+    "nodes": {
+      "edgelink-pg-config": "nodes/edgelink-pg-config.js",
+      "edgelink-pg-store": "nodes/edgelink-pg-store.js"
+    }
+  },
+  "dependencies": {
+    "pg": "^8.11.0"
+  },
+  "files": [
+    "nodes/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ]
+}
